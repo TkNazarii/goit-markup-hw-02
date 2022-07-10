@@ -1,0 +1,217 @@
+:root {
+    --colour-accent: #2196f3;
+    --colour-button-hover: #188ce8;
+    --colour-white-background: #ffffff;
+    --colour-white-background-main: #e5e5e5;
+    --colour-white-background-people: #f5f4fa;
+    --colour-dark-background: #2f303a;
+    --colour-white-text: #ffffff;
+    --colour-dark-text: #212121;
+    --colour-gray-text: #757575;
+    --colour-logo: #000000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--colour-white-background-main);
+}
+
+/* ================GENERAL CLASSES==================== */
+
+.mark {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* ================/GENERAL CLASSES==================== */
+
+/* ================HEADER==================== */
+.page-header {
+    background-color: var(--colour-white-text);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--colour-logo);
+}
+.first-word {
+    color: var(--colour-accent);
+}
+
+.link-menu:hover,
+.link-menu:focus {
+    color: var(--colour-accent);
+}
+
+.page-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--colour-dark-text);
+}
+
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--colour-accent);
+}
+
+.link-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--colour-gray-text);
+}
+/* ================/HEADER==================== */
+
+/* ================MAIN==================== */
+
+.text-hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--colour-white-background);
+}
+
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--colour-white-text);
+    background-color: var(--colour-button-hover);
+}
+.hero-main,
+.page-footer {
+    background-color: var(--colour-dark-background);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    color: var(--colour-white-text);
+    background-color: var(--colour-accent);
+}
+
+.title-benefit {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--colour-dark-text);
+}
+.text-main {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--colour-gray-text);
+}
+
+.title-main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--colour-dark-text);
+}
+
+.comand-main {
+    background-color: var(--colour-white-background-people);
+}
+
+.name-comand {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--colour-dark-text);
+}
+
+.text-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--colour-gray-text);
+}
+/* ================/MAIN==================== */
+
+/* ================FUTER==================== */
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--colour-white-text);
+}
+
+.link-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--colour-white-background);
+}
+/* ================/FUTER==================== */
+
+/* ================MAIN PORTFOLIO==================== */
+
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--colour-dark-text);
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--colour-white-background);
+    background-color: var(--colour-accent);
+}
+
+.title-content {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--colour-dark-text);
+}
+
+.text-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--colour-gray-text);
+}
+
+/* ================/MAIN PORTFOLIO==================== */
