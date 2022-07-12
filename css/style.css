@@ -186,8 +186,8 @@ body {
     background-color: var(--colour-accent);
 }
 
-.link-work:visited,
-.link-work:active {
+.nav-link,
+.link-work:visited {
     color: var(--colour-dark-text);
 }
 
